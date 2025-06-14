@@ -1,0 +1,36 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    -unity-font-style: bold;
+}
+
+.slider-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-button {
+    color: white;
+    font-size: 80px;
+    background-color: transparent;
+    border-width: 0;
+    padding: 40px;
+    transition: color 0.2s ease;
+}
+
+.option-slider{
+    padding: 40px;
+}
+
+.menu-button:hover {
+    color: rgba(119,119,119,0.78);
+}
